@@ -1,13 +1,13 @@
 from bs4 import BeautifulSoup
 import requests
 import json
+from urllib.parse import urljoin
+
+
 
 url = 'https://www.jumia.ma/'
 page = requests.get(url)
-from bs4 import BeautifulSoup
-import requests
-import json
-from urllib.parse import urljoin
+
 
 url = 'https://www.jumia.ma/'
 page = requests.get(url)
