@@ -9,8 +9,6 @@ url = 'https://www.jumia.ma/'
 page = requests.get(url)
 
 
-url = 'https://www.jumia.ma/'
-page = requests.get(url)
 
 soup = BeautifulSoup(page.text, 'html.parser')
 
